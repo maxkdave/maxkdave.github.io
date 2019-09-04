@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+      display: block;
+      width: auto;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+  
+  body {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+    margin: 20px;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 30%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 70%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    border-radius: 10px;
+    }
+  
+  /* Add a box effect for columns */
+  .card {
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+/** Text Formatting **/
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #3C5A99;
+    font-size: 33px;
+    text-align: center;
+    }
+h2 {
+    text-align: left;
+    background-color: #3C5A99;
+    color: white;
+    padding: 5px;
+    }
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+hr {
+    border-top: 2px solid #3C5A99;
+}
+
+ul {
+    list-style-type: square;
+    }
+li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/** Skills Table **/
+#skills {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #skills td, #skills th {
+    border: 1px 0px 1px 0px solid #ddd;
+    padding: 5px;
+  }
+
+#skills th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #3C5A99;
+    color: white;
+}
+#date {
+    float: right;
+}
+/*** Contact Form **/
+.myForm {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 500px;
+  padding: 10px;
+  }
+  
+  .myForm * {
+  box-sizing: border-box;
+  }
+  
+  .myForm label {
+  padding: 0;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  }
+  
+  .myForm input,
+  .myForm select,
+  .myForm textarea {
+  margin-left: 20px;
+  float: right;
+  width: 400px;
+  border: 1px solid #ccc;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  }
+  
+  .myForm textarea {
+  height: 100px;
+  }
+  
+  .myForm button {
+  padding: 10px;
+  border-radius: 5px;
+  background: #eee;
+  border: none;
+  font-weight: bold;
+  margin-left: 140px;
+  margin-top: 18px;
+  }
+  
+  .myForm button:hover {
+  background: #ccc;
+  cursor: pointer;
+  }
