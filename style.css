@@ -122,7 +122,7 @@ li {
 .myForm {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 20px;
-  width: 500px;
+  width: 300px;
   padding: 10px;
   }
   
@@ -142,7 +142,7 @@ li {
   .myForm textarea {
   margin-left: 20px;
   float: right;
-  width: 400px;
+  width: 200px;
   border: 1px solid #ccc;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 14px;
